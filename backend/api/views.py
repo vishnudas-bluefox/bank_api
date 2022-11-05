@@ -13,7 +13,7 @@ class bank_name_by_id(generics.RetrieveAPIView):
 
 bank_name_id = bank_name_by_id.as_view()
 
-#retrive all bank details by ifsc
+#retrive bank details by ifsc
 class bank_details_by_ifsc(generics.RetrieveAPIView):
     queryset = Branches.objects.all()
     serializer_class = branch_details
