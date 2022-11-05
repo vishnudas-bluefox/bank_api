@@ -7,5 +7,6 @@ from . import views
 
 
 urlpatterns = [
-    path('',views.api_home)
+    path('bank_name/',views.bank_name_by_id),
+    path('details/',views.all_details),
 ]
