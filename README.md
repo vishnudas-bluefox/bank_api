@@ -1,5 +1,4 @@
-# Bank_api
-___________
+<h1 align="center">[ Bank_API ]</h1>
 Simple API can display all the the bank details 
 
 Tools used
