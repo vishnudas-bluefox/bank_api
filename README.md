@@ -1,4 +1,7 @@
-<h1 align="center">[ Bank_API ]</h1>
+<img align="right" src="https://capital-placement.b-cdn.net/wp-content/uploads/2022/03/21-avatar-outline-1-1.gif" width=150px><h1 align="center">[ Bank_API ]</h1>
+
+
+
 Simple API can display all the the bank details 
 
 Tools used
