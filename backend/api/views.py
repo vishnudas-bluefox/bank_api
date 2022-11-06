@@ -8,7 +8,6 @@ from .serializers import bank_name_by,branch_details
 
 
 
-
 #retrive bank name by id
 class bank_name_by_id(generics.RetrieveAPIView):
     queryset = Banks.objects.all()
@@ -44,7 +43,7 @@ class bank_list_name(generics.ListAPIView):
     queryset = Banks.objects.all()
     serializer_class = bank_name_by
 
-    print(queryset)
+
 
 
 bank_list_name = bank_list_name.as_view()
@@ -62,3 +61,5 @@ class bank_by_branch(generics.ListAPIView):
         return Branches.objects.filter(branch = slug) # filtering the content using branch name
 
 bank_by_branch = bank_by_branch.as_view()
+
+
