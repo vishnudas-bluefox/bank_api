@@ -15,7 +15,7 @@ class bank_name_by(serializers.ModelSerializer):
 
         ]
 
-
+# retrive all the data from the table branches
 class branch_details(serializers.ModelSerializer):
     class Meta:
         model =Branches
