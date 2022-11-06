@@ -32,34 +32,44 @@ pip install -r requirements.txt
 cd backend
 python3 manage.py runserver
 ```
+#### Users can test the api's by pyclient/files
+____________________
+Eg:
+```
+python3 basic.py
+```
 
 
 
 ### For display the bank_name using id number
 _____________
+We can list out the bank name by passing the id 
+Eg: [http://localhost:8000/api/2]
 ```
 http://localhost:8000/api/<bank_id>
 ```
-Eg:
 ![postman_screenshot](https://raw.githubusercontent.com/vishnudas-bluefox/bank_api/master/Screenshots/bank_name_by_id.png)
 
 ### Display all details of bank using IFSC number
 ______________
+return all the fields of bank using IFSC number 
+Eg: [http://localhost:8000/api/details/ABHY0065001/]
 ```
-http://localhost:8000/api/details/ABHY0065001
+http://localhost:8000/api/details/<ifsc_code>/
 ```
-Eg:
 ![Postman Screenshot](https://raw.githubusercontent.com/vishnudas-bluefox/bank_api/master/Screenshots/details_by_ifsc.png)
 
 ### List all the banks and their ID
 ______________
+Eg:
 ```
 http://localhost:8000/api/list/
 ```
-Eg:
+
 ![Postman_Screenshot](https://raw.githubusercontent.com/vishnudas-bluefox/bank_api/master/Screenshots/list_name_and_id.png)
 ### List all the details from branches table
 __________________
+Eg:
 ```
 http://localhost:8000/api/list_all/
 ```
@@ -67,7 +77,7 @@ http://localhost:8000/api/list_all/
 
 ### List the complete details of banks using branch name
 __________________
-
+Eg:
 ```
 http://localhost:8000/api/bank_branch/RTGS-HO
 ```
