@@ -8,6 +8,28 @@ Tools used
 * psql database 
 
 
+## Guide to build locally
+* clone the current repository
+```
+git clone https://github.com/vishnudas-bluefox/bank_api
+```
+* get in to the directory
+```
+cd bank_api
+```
+* Create and activate a virtualenvironment, for install the dependencies
+  [Maybe you have to install venv in system] ``` pip install virtualenv```
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+* Install the dependencies 
+```
+pip install -r requirements.txt
+```
+
+
+
 ### For display the bank_name using id number
 _____________
 ```
